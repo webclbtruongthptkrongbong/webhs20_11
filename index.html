@@ -1,0 +1,237 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Chào mừng ngày thành lập Đoàn thanh niên 26/3</title>
+        <style>
+            * {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+        }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            width: 1200px;
+            height: 175px;
+            background: url("anh263.jpg") no-repeat center center;
+            background-size: cover;
+        }
+        nav {
+            height: 46px;
+            background: #3F7EA6;
+        }
+        nav .menu ul {
+            list-style: none;
+        }
+        nav .menu ul li {
+            float: left;
+            line-height: 50px;
+            padding: 0 50px;
+        }
+        nav .menu ul li a {
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            font-family: serif;
+        }
+        nav .menu ul li a:hover {
+            color: black;
+        }
+        nav .search {
+            line-height: 46px;
+            float: right;
+            margin-right: 65px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .content h1 {
+            text-align: center;
+            color: darkblue;
+            font-family:"Times New Roman";
+            margin-bottom:5px;
+
+        }
+        .content p {
+            text-align: justify;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            text-indent: 0.5px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        footer{
+            margin-top: 30px;
+            text-align: center;
+            background: #3F7EA6;
+            padding: 10px 0;
+            color: white;
+        }
+        .anhtieudiem {
+            width: 25px;
+            height: 25px;
+        }
+        marquee{ width:95%;
+            behavior:scrollbg;            
+            float: right repeat;
+        }
+        marquee a{
+             text-decoration: none;
+             color:maroon;
+             font-size: 1.5rem;
+             font-weight: 900;
+        }  
+        .chude {
+            height: 25px;
+            width:300px;
+            border-width: 2px;
+            border-color: #3F7EA6;
+            border-style: ridge;
+            background: #3F7EA6;
+            border-radius: 10px;
+        }
+        .chude a {
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            text-decoration: none;
+            font-family: serif;
+            padding:0 25px;
+            font-weight: bold;
+        }
+        .flex-container {
+            display: flex;
+            background-color: #ECFFFB;
+            }
+
+        .flex-container > div {
+            background-color: #ECFFFB;
+            margin: 10px;
+            padding: 0 80px;
+            font-size: 30px;
+        }
+       .image-card {
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+            cursor: pointer;
+        }     
+        .image-card:hover {
+            transform: translateY(-10px);
+        }
+        .image-card img {
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            margin-left: 0;
+        }
+        .image-card:hover img {
+            transform: scale(1.1);
+        }
+        .flex-container a{
+            text-decoration: none;
+        }
+
+        .flex-container a h2{
+            color:skyblue;
+            font-size: 25px;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        .flex-container p{
+            color: black;
+            font-size: 18px;
+            font-family: serif;
+            width: 500px;
+            height: 200px;
+        }
+        p {
+          height: 200px;
+          overflow: auto;
+          resize: horizontal;
+          text-align: justify;
+          text-indent: 1.8rem;
+          text-justify: distribute;
+          width: 600px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header> 
+                
+            </header>
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <li><a href="26thang3main.html" style="color: coral;"> TRANG CHỦ </a></li>
+                        <li><a href="26thang3p2.html"> LỊCH SỬ THÀNH LẬP ĐOÀN TNCS</a></li>
+                        <li><a href="26thang3p3.html"> HOẠT ĐỘNG NGÀY 26/3</a></li>
+                    </ul>
+                </div>
+                <div class="search"> 
+                    <input type="search" placeholder="Search.." >
+                    <button><b>Tìm kiếm</b></button>
+
+                </div>
+            </nav>
+            <div class="anhtieudiem">
+                <img src="tin.png" alt="ảnh tiêu điểm">
+            </div>
+            <marquee >  
+                <a href="26thang3p3.html">HOẠT ĐỘNG NGÀY 26/3</a>
+                <a href="26thang3p2.html" style="margin-left: 25rem;">LỊCH SỬ THÀNH LẬP ĐOÀN</a>
+            </marquee>
+            <hr size='2' width='100%' align='trái'  margin='15px' color='royalblue'>
+            <div class="gallery">
+                <img src="anh1.jpg" alt="Hoạt động ngày 26/3">
+                <img src="anh2.jpg" alt="Lễ mít tinh">
+                <img src="anh3.jpg" alt="Văn nghệ 26/3">
+            </div>
+            <div class="chude"> 
+                <a href="26thang3p2.html">LỊCH SỬ THÀNH LẬP ĐOÀN TNCS</a>
+            </div>          
+            <div class="flex-container">
+                <div class="image-card">
+                    <img src="ls1.jpg" alt="Lịch sử thành lập Đoàn TNCS"> 
+                </div>
+                <div>
+                    <a href="26thang3p2.html"><h2><b>Ngày 26 tháng 3 là ngày gì? </h2></b></a></br>
+                    <p>Ngày 26/3/1931, sau khi hộp Hội nghị Ban Chấp hành Trung ương Đảng lần II, Đảng đã ra quyết định thành lập Đoàn Thanh niên Cộng Sản Đông Dương. Sau đổi tên thành Đoàn Thanh niên Cộng sản Hồ Chí Minh được viết tắt là (Đoàn TNCS Hồ Chí Minh) đến ngày hôm nay.</p>
+                </div>
+            </div>
+            <div class="chude"> 
+                <a href="26thang3p3.html">HOẠT ĐỘNG NGÀY 26 THÁNG 3</a>
+            </div>          
+            <div class="flex-container">
+                <div class="image-card">
+                    <img src="anh4.jpg" alt="Lịch sử thành lập Đoàn TNCS"> 
+                </div>
+                <div>
+                    <a href="26thang3p3.html"><h2><b>Ngày 26 tháng 3 là ngày gì? Ý nghĩa, lịch sử ngày thành lập Đoàn TNCS</h2></b></a></br>
+                    <p>Ngày 26/3/1931, sau khi hộp Hội nghị Ban Chấp hành Trung ương Đảng lần II, Đảng đã ra quyết định thành lập Đoàn Thanh niên Cộng Sản Đông Dương. Sau đổi tên thành Đoàn Thanh niên Cộng sản Hồ Chí Minh được viết tắt là (Đoàn TNCS Hồ Chí Minh) đến ngày hôm nay.</p>
+                </div>   
+            </div>
+        <footer>
+            &copy; Website designed by Group 1 
+        </footer>
+        </div>  
+    </body>
+</html>
