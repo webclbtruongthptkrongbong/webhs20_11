@@ -1,0 +1,122 @@
+.banner {
+  background: url("a.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* Giữ nền cố định khi cuộn trang */
+  padding: 12rem 0;
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2rem; /* Tăng kích thước chữ */
+  font-weight: bold; /* Làm đậm chữ */
+  text-transform: uppercase; /* Chữ in hoa */
+  letter-spacing: 2px; /* Khoảng cách chữ */
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3); /* Lớp phủ mờ giúp chữ dễ đọc hơn */
+}
+
+
+.slogan {
+  text-align: center !important;
+  width: 100%;
+  font-family: arial;
+}
+
+/* Làm nổi bật tiêu đề */
+h2 {
+  color: red;
+  font-family: arial;
+  font-size: 2rem; /* Tăng kích thước */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  color: navy;
+  font-family: verdana;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1px;
+  max-width: 100%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  background-color: lightgrey;
+  font-family: verdana;
+}
+
+.block_3 {
+  flex: 0 0 auto;
+  width: 30%;
+  margin: 10px;
+}
+
+.cell_img {
+  flex: 1;
+  max-width: 60%;
+  margin: 0 10px;
+}
+
+.cell_text {
+  flex: 1;
+  max-width: 40%;
+  margin: 0 10px;
+  padding-left: 5rem;
+}
+
+/* Ảnh nhỏ (phần nội dung phụ) */
+.img {
+  width: 100%;
+  max-width: 370px; /* Giữ tỷ lệ ảnh nhỏ hơn */
+  height: auto;
+  border-radius: 15px; /* Bo tròn góc */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Ảnh lớn (phần nội dung chính) */
+.img1 {
+  width: 100%;
+  max-width: 570px; /* Giữ tỷ lệ ảnh lớn hơn */
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hiệu ứng hover cho ảnh */
+.img:hover, .img1:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: lightgrey;
+  margin: 1px;
+  padding: 10px;
+}
+
+.link {
+  color: navy;
+  text-align: left;
+  text-decoration: none;
+}
+
+.menu {
+  font-size: 120%;
+  text-decoration: none;
+}
